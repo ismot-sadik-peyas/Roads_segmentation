@@ -8,5 +8,5 @@ OS
 OpenCV
 H5py
 
-**Dataset**
-per-pixel-classification technique is used, which means that a single pixel generates one feature vector, so an 1500x1500 image will generate 2250000 vectors, which is too large to be handled by a personal computer, that's why the 'convertToFeatureFiles.py' script generates only 200000 vectors per file. full dataset is collecled from https://www.cs.toronto.edu/~vmnih/data/ which provide Massachusetts Roads Dataset of salletile imagery.
+# Dataset
+Dataset for thsi project is collecled from https://www.cs.toronto.edu/~vmnih/data/ which provide Massachusetts Roads Dataset of salletile imagery. Each image resolution is 1500x1500 pixel. A per-pixel-classification technique is used, which means that a single pixel generates one feature vector, so an 1500x1500 image will generate 2250000 vectors, which is too large to be handled by a personal computer thats why we use kaggle notebooks.
